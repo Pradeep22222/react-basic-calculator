@@ -36,7 +36,7 @@ export const ButtonArea = ({updateResult}) => {
        return numA / numB;
      }
   }
-  
+  console.log(total());
   return (
     <div>
       <form action="" onSubmit={()=>{updateResult(total)}}>

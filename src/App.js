@@ -7,7 +7,6 @@ import { Display } from './components/Display';
 function App() {
   const [result, setResult] = useState("");
   const updateResult = (calcValue) => {
-  
     setResult(calcValue)
   }
   console.log(result);
@@ -15,7 +14,6 @@ function App() {
     <div className="app">
       <ButtonArea updateResult={updateResult}
       ></ButtonArea>
-      
       <Display></Display>
     </div>
   );
